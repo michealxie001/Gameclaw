@@ -4,12 +4,12 @@
 #include <HTTPClient.h>
 
 // WiFi配置
-const char* ssid = "YOUR_WIFI_SSID";
-const char* password = "YOUR_WIFI_PASSWORD";
+const char* ssid = "YOUR_WIFI_SSID";           // 请替换为你的WiFi名称
+const char* password = "YOUR_WIFI_PASSWORD";   // 请替换为你的WiFi密码
 
-// OpenClaw服务器配置
-const char* openclaw_url = "http://YOUR_OPENCLAW_SERVER:42617";
-const char* bearer_token = "YOUR_BEARER_TOKEN";
+// OpenClaw服务器配置（指向蘑蘑）
+const char* openclaw_url = "http://47.88.77.96:42617";
+const char* bearer_token = "YOUR_BEARER_TOKEN"; // 请替换为你的实际令牌
 
 // 状态变量
 String current_state = "idle";
