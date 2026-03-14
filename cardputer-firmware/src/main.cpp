@@ -9,7 +9,7 @@ const char* password = "YOUR_WIFI_PASSWORD";   // 请替换为你的WiFi密码
 
 // OpenClaw服务器配置（指向蘑蘑）
 const char* openclaw_url = "http://47.88.77.96:42617";
-const char* bearer_token = "YOUR_BEARER_TOKEN"; // 请替换为你的实际令牌
+const char* bearer_token = "9673f533dd7cebce3d12d3090756c78e"; // 蘑蘑的认证令牌
 
 // 状态变量
 String current_state = "idle";
